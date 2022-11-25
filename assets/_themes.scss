@@ -1,0 +1,10 @@
+@import '@/assets/variables';
+@import '@/assets/mixins';
+@import '@/assets/_resets';
+
+:root  {
+	@include spread-map($theme-map-light);
+}
+:root.dark {
+	@include spread-map($theme-map-dark);
+}

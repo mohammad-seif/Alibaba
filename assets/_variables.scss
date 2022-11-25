@@ -1,0 +1,20 @@
+$--theme-primary: --theme-primary;
+$--theme-text: --theme-text;
+$--theme-gray: --theme-gray;
+$--theme-bg: --theme-bg;
+
+$--mobile-width: 768px;
+
+$theme-map-light: (
+	$--theme-primary: hsl(0, 0%, 100%),
+	$--theme-gray: hsl(0, 0%, 52%),
+	$--theme-bg: hsl(0, 0%, 98%),
+	$--theme-text: hsl(200, 15%, 8%)
+);
+
+$theme-map-dark: (
+	$--theme-primary: hsl(209, 23%, 22%),
+	$--theme-gray: hsl(0, 0%, 52%),
+	$--theme-bg: hsl(207, 26%, 17%),
+	$--theme-text: hsl(0, 0%, 100%)
+);
